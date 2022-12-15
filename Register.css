@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#registerPage{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #53a2ab;
+}
+
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #b5c2cf;
+}
+
+#register-form h2{
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+#register-form h4{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#register-form .register-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#register-form .register-info label{
+    font-size: 16px;
+}
+
+#register-form .register-info #first-one{
+    margin-top: 24px;
+}
+
+#register-form .register-info input{
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 4px;
+    outline: none;
+    border: 1px solid rgb(222, 225, 230);
+    border-radius: 6px;
+}
+
+#register-form .register-info #photo{
+    border: none;
+}
+
+#register-form button{
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#register-form button:hover{
+    transform: scale(1.02);
+}
+
+#register-form #register-btn{
+    background-color: #c2d6e7;
+    color: rgb(16, 17, 18);
+}
+
+#register-form h2,
+#register-form h4,
+#register-form .register-info label,
+#register-form .register-info input,
+#register-form button{
+    margin: 10px 10px;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #c5cadc;
+}
+
+#loginPage{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    width: 100vw;  
+    display: flex;
+}
+
+#log-in{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in form{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+#log-in form h2{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#log-in form h4{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#log-in form .log-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#log-in form .log-info label{
+    font-size: 16px;
+}
+
+#log-in form .log-info #first-one{
+    margin-top: 24px;
+}
+
+#log-in form .log-info input{
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 4px;
+    outline: none;
+    border: 1px solid rgb(196, 212, 179);
+    border-radius: 6px;
+}
+
+#log-in form button{
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#log-in form button:hover{
+    transform: scale(1.02);
+}
+
+#log-in form #sign-in-btn{
+    background-color: #d9dedb;
+    color: rgb(18, 18, 19);
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+#log-in form p #link-registro{
+    text-decoration: none;
+    color: #061bd9;
+    font-weight: 400;
+}
+
+#log-in form h2,
+#log-in form h4,
+#log-in form .log-info label,
+#log-in form .log-info input,
+
+#log-in form p{
+    margin: 6px 0px;
+}
+
+#loginPage #image{
+    width: 50vw;
+    height: 100vh;
+}
+
+#loginPage #image #top{
+    background-color: #131926;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#loginPage #image #bottom{
+    background-color: #19243a;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    filter: blur(8px);
+}
+
+#loginPage #image #top #top-circle{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 510px;
+    border-top-right-radius: 510px;
+    background-color: #171c30;
+}
+
+#loginPage #image #bottom #bottom-circle{
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 300px;
+    background-color: #1c173a;
+}
